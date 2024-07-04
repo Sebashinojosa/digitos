@@ -1,4 +1,4 @@
-digitos <-  function(num_3_dig){
+digitos <-  function(n3dig){
   N <- n3dig
   if(N >= 100 & N < 1000){
     dig1 <- trunc(N/100)
